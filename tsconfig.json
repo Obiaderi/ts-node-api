@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+
+    /* Modules */
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "paths": {
+      "@/resources/*" : ["resources/*"],
+      "@/utils/*" : ["utils/*"],
+      "@/middleware/*" : ["middleware/*"],
+    },                                 
+    "outDir": "dist",
+    "esModuleInterop": true,                             
+    
+    "forceConsistentCasingInFileNames": true, 
+
+    /* Type Checking */
+    "strict": true,                  
+    "skipLibCheck": true                              
+  }
+}
